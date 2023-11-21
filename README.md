@@ -6,21 +6,21 @@ Independent functions are categorized according to their phases of a regular dat
 
 ### Missing Value
 
-- __Advanced Missing Check__ : Takes 1 input as df. Looks for the placeholders of nan values such as " ", "-", "--" "?" and etc.. There are three versions of the function turning:
+- _Advanced Missing Check_ : Takes 1 input as df. Looks for the placeholders of nan values such as " ", "-", "--" "?" and etc.. There are three versions of the function turning:
   - Data Frame with Missing Values
   - Indexes of Rows Having Missing Value
   - Row Indexes with Column Names
  
-- Replace With NAN : Takes 1 input as df. Replace the nan-placeholders with np.nan values and returns the data frame.
+- _Replace With NAN_ : Takes 1 input as df. Replace the nan-placeholders with np.nan values and returns the data frame.
 
-- Missing Imputation : Takes 3 inpust as data frame, strategy and features(columns). This function perform 4 missing value imputation strategy, which are "mean", "mode", "bfill", and "ffill", on selected features. 
+- _Missing Imputation_ : Takes 3 inpust as data frame, strategy and features(columns). This function perform 4 missing value imputation strategy, which are "mean", "mode", "bfill", and "ffill", on selected features. 
 
 ### Feature Engineering
 
-- One-Hot-Encoder : Takes 2 inputs as data frame and columns list. Apply one hot encoding to the features with prefixed names and deletes the raw features.
+- _One-Hot-Encoder_ : Takes 2 inputs as data frame and columns list. Apply one hot encoding to the features with prefixed names and deletes the raw features.
 
-- Scaler : Takes 3 inputs as data frame, columns list and scale type indicatior(s,n or rs). Apply the selected scaling method to the selected features. S,n and rs stand for Standardization, Normalization and Robust Scaling respectively.
+- _Scaler_ : Takes 3 inputs as data frame, columns list and scale type indicatior(s,n or rs). Apply the selected scaling method to the selected features. S,n and rs stand for Standardization, Normalization and Robust Scaling respectively.
 
 ### Modeling
 
-- Reference Modeling : Takes 4 inputs as a data frame, target column, feature columns (as a list) and the regression type ("lr", "bc" or "mcc" for linear regression, binary classification and multiclass classification respectively. Data frames having no missing value and are encoded for categoric features will be essential to use this function.
+- _Reference Modeling_ : Takes 4 inputs as a data frame, target column, feature columns (as a list) and the regression type ("lr", "bc" or "mcc" for linear regression, binary classification and multiclass classification respectively. Data frames having no missing value and are encoded for categoric features will be essential to use this function.
