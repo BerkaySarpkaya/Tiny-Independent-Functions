@@ -1,7 +1,8 @@
 # Tiny-Independent-Functions
 This repo includes many independent functions. The purpose here is logging and sharing my tiny but time saving functions. 
+Independent functions are categorized according to their phases of a regular data science project.
 
-## Folder Information
+## Folder & Function Information
 
 ### Feature Engineering
 
