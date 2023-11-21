@@ -6,7 +6,7 @@ Independent functions are categorized according to their phases of a regular dat
 
 ### Missing Value
 
-- Advanced Missing Check : Takes 1 input as df. Looks for the placeholders of nan values such as " ", "-", "--" "?" and etc.. There are three versions of the function turning:
+- __Advanced Missing Check__ : Takes 1 input as df. Looks for the placeholders of nan values such as " ", "-", "--" "?" and etc.. There are three versions of the function turning:
   - Data Frame with Missing Values
   - Indexes of Rows Having Missing Value
   - Row Indexes with Column Names
