@@ -22,7 +22,7 @@ The function names and their brief descriptions are explained below.
 
 - **Scaler** : Takes 3 inputs as data frame, columns list and scale type indicatior(s,n or rs). Apply the selected scaling method to the selected features. S,n and rs stand for Standardization, Normalization and Robust Scaling respectively.
 
-## Visualization
+### Visualization
 
 - **Categorical Plot** : Takes 4 inputs as dataframe, categorical columns list, graph per row number(optional) and hue(optional). The function plots the count distribution of the categorical columns with or without respect to hue feature.
 
