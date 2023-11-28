@@ -18,6 +18,8 @@ The function names and their brief descriptions are explained below.
 
 ### Feature Engineering
 
+- **Label-Encoder**: SOON!
+
 - **One-Hot-Encoder** : Takes 2 inputs as data frame and columns list. Apply one hot encoding to the features with prefixed names and deletes the raw features.
 
 - **Scaler** : Takes 3 inputs as data frame, columns list and scale type indicatior(s,n or rs). Apply the selected scaling method to the selected features. S,n and rs stand for Standardization, Normalization and Robust Scaling respectively.
